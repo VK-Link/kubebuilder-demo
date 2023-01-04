@@ -1,0 +1,11 @@
+apiVersion: webapp.github.io/v1
+kind: Guestbook
+metadata:
+  name: guestbook-sample
+spec:
+  # Add fields here
+  size: 512
+  configMapName: guest
+  type: book
+
+
